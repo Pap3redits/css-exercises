@@ -22,6 +22,9 @@ body {
   color: darkmagenta;
   display: flex;
   align-items: center;
+  justify-content: center;
+
+
 }
 
 .sidebar {
@@ -38,6 +41,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  flex-basis: 180px;
+  padding: 32px;
 
 }
 
@@ -45,6 +50,7 @@ body {
   display: flex;
 
 }
+
 .content {
   display: flex;
   flex-wrap: wrap;
